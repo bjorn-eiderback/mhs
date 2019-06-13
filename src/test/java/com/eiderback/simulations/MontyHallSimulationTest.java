@@ -50,7 +50,7 @@ class MontyHallSimulationTest {
   @Test
   void runOneRoundChangeWinsCar_in_pos_2() {
     //Mock the scrambling...
-    List<String> carThird = Arrays.asList(EMPTY, CAR, EMPTY);
+    List<String> carThird = Arrays.asList(EMPTY, EMPTY, CAR);
     when(doorsHandler.scrambledList()).thenReturn(carThird);
     objectUnderTest.runOneRound();
     assertEquals(0L, objectUnderTest.keepWins);
