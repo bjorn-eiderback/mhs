@@ -30,7 +30,7 @@ public class DoorsHandler implements DoorsHandlerInterface {
    * Scramble the doors list
    */
   @Override
-  public void scrambledDoors() {
+  public void scrambleDoors() {
     //To be able to delete an item we have to create an ArrayList of the scrambled list
     doors = new ArrayList(scrambledList());
   }

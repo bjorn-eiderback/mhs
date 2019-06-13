@@ -23,7 +23,7 @@ public class MontyHallSimulation {
 
   protected void runOneRound() {
     //Scramble the list of doors.
-    doorsHandler.scrambledDoors();
+    doorsHandler.scrambleDoors();
     //Player takes the first door (since the randomization is in the scrambledList we always choose the first door)
     doorsHandler.takeFirstDoor();
     //Host takes the first of the empty doors

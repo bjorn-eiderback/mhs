@@ -3,7 +3,7 @@ package com.eiderback.simulations;
 import java.util.List;
 
 public interface DoorsHandlerInterface {
-  void scrambledDoors();
+  void scrambleDoors();
   String takeFirstDoor();
   boolean takeFirstEmptyDoor();
   boolean isItACarBehindTheDoor(String aDoor);
