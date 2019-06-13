@@ -2,7 +2,6 @@ package com.eiderback.simulations;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Spy;
 
 import java.util.Arrays;
