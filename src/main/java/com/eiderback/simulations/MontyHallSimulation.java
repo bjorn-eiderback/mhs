@@ -17,7 +17,7 @@ public class MontyHallSimulation {
     while(continueSimulation) { //We run "forever" in this version. Terminate with CRTL-C or similar
       updateRoundNumber();
       runOneRound();
-      presentResultForCurrentRound();
+      presentResultOfCurrentRound();
     }
   }
 
@@ -54,7 +54,7 @@ public class MontyHallSimulation {
   /**
    * Very simple presentation of the result
    */
-  private void presentResultForCurrentRound() {
+  private void presentResultOfCurrentRound() {
     String percentageKeep = computePercentage(keepWins, roundNo);
     String percentageChange = computePercentage(changeWins, roundNo);
     String output = String.format("Rounds played: %s :: Keep wins: %s (%s) | Change wins: %s (%s)", roundNo, keepWins, percentageKeep, changeWins, percentageChange);
